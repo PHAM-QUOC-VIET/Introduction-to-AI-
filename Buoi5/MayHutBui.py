@@ -3,7 +3,7 @@
 Họ và tên: Phạm Quốc Việt
 MSSV: 22119255
 BT: Máy hút bụi - BFS, DFS
-Link Github:
+Link Github: https://github.com/PHAM-QUOC-VIET/Introduction-to-AI-/blob/main/Buoi5/MayHutBui.py
 """
 
 import tkinter as tk
