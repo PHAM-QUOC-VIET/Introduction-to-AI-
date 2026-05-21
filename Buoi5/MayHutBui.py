@@ -160,13 +160,6 @@ class VacuumGUI:
         cy = oy + pos[0] * cell_size + cell_size//2
         self.canvas.create_oval(cx-28, cy-28, cx+28, cy+28, fill="#2563eb", outline="white", width=6)
 
-    # def update_frontier(self, frontier):
-    #     self.queue_text.delete(1.0, tk.END)
-    #     self.queue_text.insert(tk.END, f"Frontier size: {len(frontier)}\n\n")
-    #     for i, node in enumerate(list(frontier)[:18]):
-    #         self.queue_text.insert(tk.END, 
-    #             f"{i+1:2d}. {node.state.robot_pos} | Dirt: {len(node.state.dirty_cells)}\n")
-
 
     def update_log(self, current: Node, is_new_step=True):
         """Hiển thị log tuần tự quá trình robot di chuyển"""
